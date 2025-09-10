@@ -44,7 +44,7 @@ Clone the repository and install dependencies:
 
 # Clone the repository
 ```bash
-git clone https://github.com/yourusername/batteryguardian.git
+git clone https://github.com/tayyabalizaheer/batteryguardian.git
 cd batteryguardian
 ```
 # Install dependencies

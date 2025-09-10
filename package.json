@@ -1,0 +1,25 @@
+{
+  "name": "battery-guardian",
+  "version": "1.0.0",
+  "description": "Battery Guardian is a lightweight desktop utility designed to protect and optimize your laptop or PC battery health.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder -w"
+  },
+  "build": {
+    "appId": "batteryguardian",
+    "win": { "target": "nsis", "icon": "icon.ico" }
+  },
+  "keywords": [],
+  "author": "tayyabalizaheer",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^5.27.8"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "electron": "^38.0.0"
+  }
+}
